@@ -1,0 +1,76 @@
+<!DOCTYPE html PUBLIC "-//W3C//DTD HTML 4.0 Transitional//EN">
+<html><head><title>Python: module Teksulaskin</title>
+<meta http-equiv="Content-Type" content="text/html; charset=utf-8">
+</head><body bgcolor="#f0f0f8">
+
+<table width="100%" cellspacing=0 cellpadding=2 border=0 summary="heading">
+<tr bgcolor="#7799ee">
+<td valign=bottom>&nbsp;<br>
+<font color="#ffffff" face="helvetica, arial">&nbsp;<br><big><big><strong>Teksulaskin</strong></big></big></font></td
+><td align=right valign=bottom
+><font color="#ffffff" face="helvetica, arial"><a href=".">index</a><br><a href="file:c%3A%5Cusers%5Cvilil%5Cdesktop%5Cteksulaskin.py">c:\users\vilil\desktop\teksulaskin.py</a></font></td></tr></table>
+    <p></p>
+<p>
+<table width="100%" cellspacing=0 cellpadding=2 border=0 summary="section">
+<tr bgcolor="#aa55cc">
+<td colspan=3 valign=bottom>&nbsp;<br>
+<font color="#ffffff" face="helvetica, arial"><big><strong>Modules</strong></big></font></td></tr>
+    
+<tr><td bgcolor="#aa55cc"><tt>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;</tt></td><td>&nbsp;</td>
+<td width="100%"><table width="100%" summary="list"><tr><td width="25%" valign=top><a href="ast.html">ast</a><br>
+</td><td width="25%" valign=top><a href="itertools.html">itertools</a><br>
+</td><td width="25%" valign=top><a href="pydoc.html">pydoc</a><br>
+</td><td width="25%" valign=top><a href="random.html">random</a><br>
+</td></tr></table></td></tr></table><p>
+<table width="100%" cellspacing=0 cellpadding=2 border=0 summary="section">
+<tr bgcolor="#eeaa77">
+<td colspan=3 valign=bottom>&nbsp;<br>
+<font color="#ffffff" face="helvetica, arial"><big><strong>Functions</strong></big></font></td></tr>
+    
+<tr><td bgcolor="#eeaa77"><tt>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;</tt></td><td>&nbsp;</td>
+<td width="100%"><dl><dt><a name="-arvotuslista_yhdeksi"><strong>arvotuslista_yhdeksi</strong></a>(lista: list) -&gt; tuple</dt><dd><tt>Saa&nbsp;inputtina&nbsp;6&nbsp;pituisen&nbsp;"arvotuslistan"&nbsp;numeroita&nbsp;0&nbsp;-&nbsp;14,&nbsp;muuntaa&nbsp;ne&nbsp;yhdeksi&nbsp;kantaluku&nbsp;10&nbsp;numeroksi.&nbsp;Näitä&nbsp;vertailemalla&nbsp;kaikkien&nbsp;käsien&nbsp;paremmuus&nbsp;selvitettävissä.</tt></dd></dl>
+ <dl><dt><a name="-eri_arvoja"><strong>eri_arvoja</strong></a>(kasi: list) -&gt; int</dt><dd><tt>Laskee&nbsp;montaako&nbsp;eri&nbsp;numeroista&nbsp;korttia&nbsp;annetuissa&nbsp;5&nbsp;kortissa&nbsp;on.&nbsp;Tätä&nbsp;hyödynnetään&nbsp;käden&nbsp;tarkemmassa&nbsp;tunnistamisessa.&nbsp;Palauttaa&nbsp;vain&nbsp;numeron&nbsp;2-5.<br>
+Vaatii&nbsp;toimiakseen,&nbsp;että&nbsp;annetut&nbsp;kortit&nbsp;ovat&nbsp;suuruusjärjesyksessä.</tt></dd></dl>
+ <dl><dt><a name="-eteneminen"><strong>eteneminen</strong></a>(tarkkuus: int, testi: int)</dt><dd><tt>Tarkemmilla&nbsp;tarkkuuksilla&nbsp;kun&nbsp;ohjelmalla&nbsp;kestää&nbsp;hetken&nbsp;laskea,&nbsp;tulostaa&nbsp;käyttäjälle&nbsp;"latauspalkin"&nbsp;jotta&nbsp;tietää&nbsp;että&nbsp;ohjelma&nbsp;etenee&nbsp;kuitenkin.<br>
+Ei&nbsp;palauta&nbsp;mitään.</tt></dd></dl>
+ <dl><dt><a name="-haku"><strong>haku</strong></a>(tallennusavain)</dt><dd><tt>Kun&nbsp;laskettavan&nbsp;käden&nbsp;tiedot&nbsp;on&nbsp;syötetty,&nbsp;ennen&nbsp;kuin&nbsp;laskua&nbsp;aletaan&nbsp;tekemään,&nbsp;tämä&nbsp;tarkistaa&nbsp;onko&nbsp;samasta&nbsp;kädestä&nbsp;aiemmin&nbsp;tallennettua&nbsp;tulosta&nbsp;olemassa.</tt></dd></dl>
+ <dl><dt><a name="-hero_kysely"><strong>hero_kysely</strong></a>(sekoitettupakka)</dt><dd><tt>heron(pelaaja&nbsp;itse)&nbsp;korttien&nbsp;kysely,&nbsp;palauttaa&nbsp;2&nbsp;kortin&nbsp;listan</tt></dd></dl>
+ <dl><dt><a name="-korttientulostus"><strong>korttientulostus</strong></a>(x)</dt><dd><tt>Muuttaa&nbsp;kortit&nbsp;tulostaessa&nbsp;tupleista&nbsp;värillisiksi&nbsp;ja&nbsp;poistaa&nbsp;sulkeet&nbsp;sekä&nbsp;heittomerkit</tt></dd></dl>
+ <dl><dt><a name="-luo_pakka"><strong>luo_pakka</strong></a>() -&gt; list</dt><dd><tt>Luo&nbsp;korttipakan.&nbsp;Kortit&nbsp;tupleina&nbsp;muodossa&nbsp;esim:&nbsp;[(5,"♥"),&nbsp;(6,"♥"),&nbsp;(14,"♠")]</tt></dd></dl>
+ <dl><dt><a name="-maa_muunnokset"><strong>maa_muunnokset</strong></a>(tallennusrivi: str, kuvakkeiksi: bool)</dt><dd><tt>Tallennusta&nbsp;varten&nbsp;ascii&nbsp;kuvakkeiden&nbsp;muuntaminen&nbsp;tekstiksi&nbsp;ja&nbsp;takaisin&nbsp;(true/false)</tt></dd></dl>
+ <dl><dt><a name="-main"><strong>main</strong></a>()</dt><dd><tt>Kaiken&nbsp;pääfunktio&nbsp;&amp;&nbsp;tallennus</tt></dd></dl>
+ <dl><dt><a name="-main_tunnistus"><strong>main_tunnistus</strong></a>(kasi: list) -&gt; tuple</dt><dd><tt>Saa&nbsp;inputtina&nbsp;5&nbsp;kortin&nbsp;listan.&nbsp;Tunnistaa&nbsp;sen&nbsp;useita&nbsp;muita&nbsp;funktioita&nbsp;hyödyntäen.&nbsp;<br>
+palauttaa&nbsp;tuplen,&nbsp;jossa&nbsp;lista&nbsp;5&nbsp;kortista,&nbsp;sekä&nbsp;&nbsp;tuple&nbsp;jossa&nbsp;käsityyppinro,&nbsp;arvotuslista<br>
+esim&nbsp;([(5,"♦"),(6,"♣"),(9,"♣"),(11,"♦"),(12,"♣")],(5,&nbsp;1324354))</tt></dd></dl>
+ <dl><dt><a name="-oli_high"><strong>oli_high</strong></a>(kasi: list) -&gt; list</dt><dd><tt>luo&nbsp;highn&nbsp;arvotuslistan</tt></dd></dl>
+ <dl><dt><a name="-oli_kaksiparia"><strong>oli_kaksiparia</strong></a>(kasi: list) -&gt; list</dt><dd><tt>luo&nbsp;kahden&nbsp;parin&nbsp;arvotuslistan</tt></dd></dl>
+ <dl><dt><a name="-oli_kolmoset"><strong>oli_kolmoset</strong></a>(kasi: list) -&gt; list</dt><dd><tt>luo&nbsp;kolmosten&nbsp;arvotuslistan</tt></dd></dl>
+ <dl><dt><a name="-oli_neloset"><strong>oli_neloset</strong></a>(kasi: list) -&gt; list</dt><dd><tt>luo&nbsp;nelosten&nbsp;arvotuslistan</tt></dd></dl>
+ <dl><dt><a name="-oli_pari"><strong>oli_pari</strong></a>(kasi: list) -&gt; list</dt><dd><tt>luo&nbsp;parin&nbsp;arvotuslistan</tt></dd></dl>
+ <dl><dt><a name="-oli_suora"><strong>oli_suora</strong></a>(kasi: list) -&gt; list</dt><dd><tt>luo&nbsp;suoran&nbsp;arvotuslistan</tt></dd></dl>
+ <dl><dt><a name="-oli_tayskasi"><strong>oli_tayskasi</strong></a>(kasi: list) -&gt; list</dt><dd><tt>luo&nbsp;täyskäden&nbsp;arvotuslistan</tt></dd></dl>
+ <dl><dt><a name="-oli_vari"><strong>oli_vari</strong></a>(kasi: list) -&gt; list</dt><dd><tt>luo&nbsp;värin&nbsp;arvotuslistan</tt></dd></dl>
+ <dl><dt><a name="-oli_varisuora"><strong>oli_varisuora</strong></a>(kasi: list) -&gt; list</dt><dd><tt>luo&nbsp;värisuoran&nbsp;arvotuslistan</tt></dd></dl>
+ <dl><dt><a name="-pelaajamaara"><strong>pelaajamaara</strong></a>()</dt><dd><tt>Pelaajamäärän&nbsp;kysyvä&nbsp;funktio.&nbsp;Nykyversiossa&nbsp;ei&nbsp;käytössä&nbsp;mutta&nbsp;säilytän&nbsp;myöhemmän&nbsp;varalle.</tt></dd></dl>
+ <dl><dt><a name="-peli"><strong>peli</strong></a>()</dt><dd><tt>Kaikki&nbsp;laskimelle&nbsp;annettavat&nbsp;inputit&nbsp;kysyvä&nbsp;pääfunktio.</tt></dd></dl>
+ <dl><dt><a name="-pisteiden_kasittely"><strong>pisteiden_kasittely</strong></a>(pisteetkasittelematta)</dt><dd><tt>Lisäfunktio&nbsp;tuloksen&nbsp;purkuun,&nbsp;muuttaa&nbsp;tallennustiedostosta&nbsp;saadun&nbsp;stringin&nbsp;jossa&nbsp;tulokset&nbsp;takaisin&nbsp;listaksi&nbsp;jossa&nbsp;2&nbsp;listaa,&nbsp;eli&nbsp;muotoon&nbsp;josta&nbsp;ohjelma&nbsp;tulostaa&nbsp;tulokset&nbsp;näkyville</tt></dd></dl>
+ <dl><dt><a name="-poista_pakasta"><strong>poista_pakasta</strong></a>(pakka: list, poistettavat: list) -&gt; list</dt><dd><tt>ottaa&nbsp;inputtina&nbsp;jäljellä&nbsp;olevan&nbsp;pakan,&nbsp;sekä&nbsp;sieltä&nbsp;poistettavat&nbsp;kortit.&nbsp;Palauttaa&nbsp;pakan&nbsp;ilman&nbsp;kys&nbsp;kortteja.</tt></dd></dl>
+ <dl><dt><a name="-poyta"><strong>poyta</strong></a>(sekoitettupakka: list) -&gt; list</dt><dd><tt>Kyselee&nbsp;käyttäjältä&nbsp;haluaako&nbsp;tämä&nbsp;syöttää&nbsp;pöytäkortteja.&nbsp;Palauttaa&nbsp;listan&nbsp;jossa&nbsp;0&nbsp;-&nbsp;5&nbsp;korttia</tt></dd></dl>
+ <dl><dt><a name="-sekoita_pakka"><strong>sekoita_pakka</strong></a>(pakka: list) -&gt; list</dt><dd><tt>sekoittaa&nbsp;annetun&nbsp;pakan&nbsp;järjestyksen</tt></dd></dl>
+ <dl><dt><a name="-tallennus"><strong>tallennus</strong></a>(tallennusavain, tallennustulos, tarkkuus)</dt><dd><tt>Jos&nbsp;laskimen&nbsp;tarkkuudeksi&nbsp;valittu&nbsp;3,&nbsp;tallentaa&nbsp;tuloksen.</tt></dd></dl>
+ <dl><dt><a name="-testi"><strong>testi</strong></a>(hero_kortit: list, villainkortit: list, sekoitettupakka: list, poyta: list, tarkkuus: int)</dt><dd><tt>Laskinfunktio.&nbsp;Luo&nbsp;listan&nbsp;eri&nbsp;käsien&nbsp;pisteille,&nbsp;pyörittää&nbsp;kädentunnistuksen&nbsp;niin&nbsp;monesti&nbsp;kuin&nbsp;käyttäjä&nbsp;on&nbsp;valinnut&nbsp;(tarkkuus),&nbsp;<br>
+ja&nbsp;palauttaa&nbsp;pisteet&nbsp;muodossa&nbsp;josta&nbsp;tulos&nbsp;funktio&nbsp;osaa&nbsp;ne&nbsp;tulostaa.<br>
+Palauttaa&nbsp;listan&nbsp;jossa&nbsp;kaikkien&nbsp;pelaajien&nbsp;käsikortit,&nbsp;listan&nbsp;jossa&nbsp;jokaisen&nbsp;pelaajan&nbsp;pisteet&nbsp;samassa&nbsp;järjestyksessä&nbsp;kuin&nbsp;kädet,&nbsp;<br>
+käyttäjän&nbsp;käteen&nbsp;syöttämät&nbsp;käsikortit,&nbsp;ja&nbsp;käden&nbsp;laskemiseen&nbsp;valitun&nbsp;tarkkuuden.</tt></dd></dl>
+ <dl><dt><a name="-testimaara"><strong>testimaara</strong></a>()</dt><dd><tt>Ohjelman&nbsp;tarkkuuden&nbsp;(0&nbsp;-3)&nbsp;kysyva&nbsp;funktio.&nbsp;Tarkkuudella&nbsp;3,&nbsp;tulos&nbsp;tallennetaan&nbsp;myös&nbsp;myöhemmin&nbsp;käytettäväksi.</tt></dd></dl>
+ <dl><dt><a name="-tuloksen_purku"><strong>tuloksen_purku</strong></a>(tulos_tallennetuista)</dt><dd><tt>Jos&nbsp;tallennettu&nbsp;tulos&nbsp;löytyy,&nbsp;tämä&nbsp;purkaa&nbsp;kyseisen&nbsp;rivin&nbsp;tallennustiedostosta&nbsp;ohjelman&nbsp;luettavaan&nbsp;muotoon.</tt></dd></dl>
+ <dl><dt><a name="-tulos"><strong>tulos</strong></a>(kaikkikortit: list, pisteet: list, poyta: list, tarkkuus: int)</dt><dd><tt>Tulostaa&nbsp;käden&nbsp;tulokset&nbsp;käyttäjän&nbsp;nähtäväksi.&nbsp;Ei&nbsp;palauta&nbsp;mitään</tt></dd></dl>
+ <dl><dt><a name="-tunnista_texu"><strong>tunnista_texu</strong></a>(seitsemankorttia: list) -&gt; list</dt><dd><tt>Käsientunnistuksen&nbsp;pääfunktio.&nbsp;Testaa&nbsp;kaikki&nbsp;21&nbsp;viiden&nbsp;kortin&nbsp;yhdistelmää&nbsp;"main_tunnistus"&nbsp;funktiolla,&nbsp;ja&nbsp;valitsee&nbsp;niistä&nbsp;parhaan&nbsp;palautettavaksi.<br>
+Palauttaa&nbsp;listan&nbsp;jossa&nbsp;paras&nbsp;5&nbsp;kortin&nbsp;käsi,&nbsp;käsityypin&nbsp;(esim&nbsp;pari&nbsp;tai&nbsp;suora)&nbsp;kertovan&nbsp;numeron,&nbsp;<br>
+sekä&nbsp;arvotusnumeron&nbsp;jota&nbsp;voidaan&nbsp;vertailla&nbsp;muiden&nbsp;pelaajien&nbsp;käsiin&nbsp;parhaan&nbsp;käden&nbsp;määrittämiseksi.</tt></dd></dl>
+ <dl><dt><a name="-uudestaan"><strong>uudestaan</strong></a>()</dt><dd><tt>Ohjelman&nbsp;lopetus/kysely,&nbsp;haluaako&nbsp;käyttäjä&nbsp;aloittaa&nbsp;alusta.</tt></dd></dl>
+ <dl><dt><a name="-villain_kysely"><strong>villain_kysely</strong></a>(sekoitettupakka: list, pelaajanro: int) -&gt; list</dt><dd><tt>muiden&nbsp;pelaajien&nbsp;korttien&nbsp;kysely,&nbsp;palauttaa&nbsp;2&nbsp;kortin&nbsp;listan<br>
+ottaa&nbsp;inputtina&nbsp;jäljellä&nbsp;olevan&nbsp;korttipakan,&nbsp;sekä&nbsp;pelaajanro:n&nbsp;jota&nbsp;käytetään&nbsp;kortteja&nbsp;käyttäjältä&nbsp;pyytäessä,&nbsp;<br>
+jotta&nbsp;pysyy&nbsp;kärryillä&nbsp;monellekko&nbsp;pelaajalle&nbsp;kortteja&nbsp;on&nbsp;syötetty.</tt></dd></dl>
+</td></tr></table>
+</body></html>
